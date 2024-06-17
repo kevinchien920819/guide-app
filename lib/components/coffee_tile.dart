@@ -3,9 +3,9 @@ import '../models/coffee.dart';
 
 class CoffeeTile extends StatelessWidget {
   final Coffee coffee;
-  void Function()? onPressed;
+  final void Function()? onPressed;
   final Widget icon;
-  CoffeeTile(
+  const CoffeeTile(
       {super.key,
         required this.coffee,
         required this.onPressed,
